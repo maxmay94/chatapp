@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react"
 import firebase from 'firebase/compat/app'
-import 'firebase/firestore'
-import 'firebase/auth'
+import 'firebase/compat/firestore'
+import 'firebase/compat/auth'
 
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { useCollectionData } from 'react-firebase-hooks/firestore'
